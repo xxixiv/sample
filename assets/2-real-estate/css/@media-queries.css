@@ -1,0 +1,205 @@
+@media (max-width: 1440px) {
+    header .logo
+    {
+    font-weight: 700;
+    font-size: 20px;
+    }
+
+    header ul li
+  {
+      margin: 0 60px
+  }
+
+    header ul li:nth-child(1) a 
+    {
+      margin-left: 200px;
+    }
+
+    .container:before
+    {
+        width: 39%;
+    }
+
+    .container
+    {
+        padding-top: 20px;
+    }
+    
+}
+
+@media (max-width: 1330px)
+{
+    
+    header .logo {
+        font-size: 18px;
+    }
+
+    header ul li a {
+        font-size: 16px;
+    }
+    .container {
+        padding: 3% 5% 12%;
+      }
+
+      header ul li:nth-child(1) a 
+      {
+        margin-left: 180px;
+      }
+
+}
+
+@media (max-width: 1080px) {
+    header .logo
+    {
+        font-size: 15px;
+    }
+    header ul li:nth-child(1) a 
+      {
+        margin-left: 100px;
+      }
+    
+}
+
+@media (max-width: 992px)
+{
+
+    header
+    {
+        width: 100%;
+        padding: 6% 5%;
+    }
+    header ul li:nth-child(1) a 
+    {
+      margin-left: 20px;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 870px) {
+    header
+    {
+        padding: 5% 4%;
+    }
+}
+
+@media (max-width: 850px) {
+    
+    .grey:before
+    {
+        width: 0;
+    }
+    .toggle
+    {
+        margin-left: 40%;
+    }
+
+    header ul
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: var(--primary-color);
+        z-index: 10000;
+        padding: 10% 0;
+    }
+
+    header ul.acti
+    {
+      display: initial;
+    }
+    
+    header ul li {
+        padding: 4% 0;
+        text-align: center;
+    }
+
+    header ul li a
+    {
+        color: var(--font-color)!important;
+        font-size: 4vw;
+    }
+
+    header ul li:nth-child(1) a 
+      {
+        margin-left: 0;
+      }
+
+    header ul li a:hover:before,
+    header ul li a.active:before
+  {
+      width: 100%;
+  }
+
+  .container
+  {
+    padding: 5% 3% 20%;
+  }
+  .container:before,
+  .container:after
+  {
+    display: none;
+  }
+    .content{
+        margin-top: 0;
+        margin-left: 0;
+        flex-direction: column-reverse;
+    }
+
+    .content .bannerText
+    {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .content .bannerText h2
+    {
+        font-size: 28px;
+    
+    }
+    .content .bannerImg
+    {
+        width: 100%;
+        height: 40vh;
+        margin: 20px 0;
+    }
+
+    .content .bannerImg img
+    {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 570px) 
+{
+    header
+    {
+        margin-top: 20px;
+    }
+
+    .container
+  {
+    min-height: 100vh;
+    padding: 10% 13% 15%;
+  }
+
+  header .logo
+  {
+      font-size: 19px;
+  }
+}
+
+
+@media (max-width: 376px) {
+    header .logo
+    {
+        font-size: 14px;
+    }
+}
